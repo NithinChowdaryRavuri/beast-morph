@@ -77,7 +77,7 @@ export default function Generator(props) {
               }}
               className={
                 "bg-slate-950 border  duration-200 px-4 hover:border-blue-600 py-3 rounded-lg " +
-                (type === poison ? " border-blue-600" : " border-blue-400")
+                (type === poison ? " border-blue-600" : "border-slate-950")
               }
               key={typeIndex}
             >
@@ -91,7 +91,7 @@ export default function Generator(props) {
         title={"Lock on targets"}
         description={"Select the muscles judged for annihilation."}
       />
-      <div className="bg-slate-950  border border-solid border-blue-400 rounded-lg flex flex-col">
+      <div className="bg-slate-950  border border-solid border-slate-950 rounded-lg flex flex-col">
         <button
           onClick={toggleModal}
           className="relative p-3 flex items-center justify-center"
@@ -141,7 +141,7 @@ export default function Generator(props) {
               }}
               className={
                 "bg-slate-950 border  duration-200 hover:border-blue-600 py-3 rounded-lg px-4 " +
-                (scheme === goal ? " border-blue-600" : " border-blue-400")
+                (scheme === goal ? " border-blue-600" : " border-slate-950")
               }
               key={schemeIndex}
             >
